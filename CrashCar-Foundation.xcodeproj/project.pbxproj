@@ -13,6 +13,11 @@
 		7C39E52B2C2D592D00D7EA4D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7C39E52A2C2D592D00D7EA4D /* Base */; };
 		7C39E52D2C2D592E00D7EA4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C39E52C2C2D592E00D7EA4D /* Assets.xcassets */; };
 		7C39E5302C2D592E00D7EA4D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7C39E52F2C2D592E00D7EA4D /* Base */; };
+		7C39E5392C2D5F0100D7EA4D /* ARCADECLASSIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7C39E5372C2D5A1B00D7EA4D /* ARCADECLASSIC.TTF */; };
+		7C39E53B2C2D603C00D7EA4D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C39E53A2C2D603C00D7EA4D /* GameScene.sks */; };
+		7C39E53D2C2D612000D7EA4D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39E53C2C2D612000D7EA4D /* GameViewController.swift */; };
+		7C39E53E2C2D615100D7EA4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C39E5292C2D592D00D7EA4D /* Main.storyboard */; };
+		7C39E5402C2D6D6300D7EA4D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39E53F2C2D6D6300D7EA4D /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,10 @@
 		7C39E52C2C2D592E00D7EA4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C39E52F2C2D592E00D7EA4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C39E5312C2D592E00D7EA4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C39E5372C2D5A1B00D7EA4D /* ARCADECLASSIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ARCADECLASSIC.TTF; sourceTree = "<group>"; };
+		7C39E53A2C2D603C00D7EA4D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7C39E53C2C2D612000D7EA4D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7C39E53F2C2D6D6300D7EA4D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +67,13 @@
 			children = (
 				7C39E5232C2D592D00D7EA4D /* AppDelegate.swift */,
 				7C39E5252C2D592D00D7EA4D /* SceneDelegate.swift */,
-				7C39E5272C2D592D00D7EA4D /* ViewController.swift */,
 				7C39E5292C2D592D00D7EA4D /* Main.storyboard */,
+				7C39E5272C2D592D00D7EA4D /* ViewController.swift */,
+				7C39E53C2C2D612000D7EA4D /* GameViewController.swift */,
+				7C39E53A2C2D603C00D7EA4D /* GameScene.sks */,
+				7C39E53F2C2D6D6300D7EA4D /* GameScene.swift */,
 				7C39E52C2C2D592E00D7EA4D /* Assets.xcassets */,
+				7C39E5372C2D5A1B00D7EA4D /* ARCADECLASSIC.TTF */,
 				7C39E52E2C2D592E00D7EA4D /* LaunchScreen.storyboard */,
 				7C39E5312C2D592E00D7EA4D /* Info.plist */,
 			);
@@ -126,8 +139,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C39E52D2C2D592E00D7EA4D /* Assets.xcassets in Resources */,
+				7C39E53B2C2D603C00D7EA4D /* GameScene.sks in Resources */,
 				7C39E5302C2D592E00D7EA4D /* Base in Resources */,
+				7C39E53E2C2D615100D7EA4D /* Main.storyboard in Resources */,
 				7C39E52B2C2D592D00D7EA4D /* Base in Resources */,
+				7C39E5392C2D5F0100D7EA4D /* ARCADECLASSIC.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C39E5402C2D6D6300D7EA4D /* GameScene.swift in Sources */,
 				7C39E5282C2D592D00D7EA4D /* ViewController.swift in Sources */,
 				7C39E5242C2D592D00D7EA4D /* AppDelegate.swift in Sources */,
 				7C39E5262C2D592D00D7EA4D /* SceneDelegate.swift in Sources */,
+				7C39E53D2C2D612000D7EA4D /* GameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
