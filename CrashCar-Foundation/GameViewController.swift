@@ -24,10 +24,11 @@ class GameViewController: UIViewController {
                 view.presentScene(scene)
             }
             
+            view.showsFPS = true
+            view.showsNodeCount = true
         }
         
     }
-    
 
     override var prefersStatusBarHidden: Bool {
         return true
